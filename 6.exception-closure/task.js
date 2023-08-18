@@ -10,7 +10,8 @@ function parseCount(item) {
 
 function validateCount(item) {
 	try {
-		return parseCount(item);
+        const number = parseCount(item);
+		return number;
 	} catch (error) {
 		return error;
 	}

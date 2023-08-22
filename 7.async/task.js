@@ -39,7 +39,7 @@ class AlarmClock {
 					alarm.callback();
 				}
 			});
-		}, 1000);
+		},);
 	}
 	stop() {
 		clearInterval(this.intervalId);
